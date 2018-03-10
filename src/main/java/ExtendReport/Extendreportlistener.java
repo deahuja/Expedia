@@ -73,7 +73,6 @@ public class Extendreportlistener implements IReporter {
 		return calendar.getTime();
 	}
 }
-
 	
 
 
