@@ -2,13 +2,20 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM Application Test Automation Test Suite]">
   <listeners>
-    <listener class-name="ExtendReport.Extendreportlistener"/>
+    <listener class-name="ExtendReport.ExtentReportNG"/>
   </listeners>
-  <test thread-count="5" name="Expedia Test Cases(failed)">
+  <test name="Expedia Test Cases(failed)">
     <classes>
+      <class name="TestNG.FlightSearchTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="SearchFlight"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestNG.FlightSearchTest -->
       <class name="TestNG.RegistrationTest">
         <methods>
-          <include name="Registration" invocation-numbers="0"/>
+          <include name="Registration"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
