@@ -64,6 +64,6 @@ public class RegistrationTest extends ExpediaTestBase {
 	@AfterTest
 	public void teardown() {
 		
-		//driver.quit();
+		driver.quit();
 	}
 }

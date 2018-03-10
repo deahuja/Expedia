@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="37670" started-at="2018-03-10T05:36:27Z" finished-at="2018-03-10T05:37:05Z">
+  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="38599" started-at="2018-03-10T06:22:01Z" finished-at="2018-03-10T06:22:40Z">
     <groups>
     </groups>
-    <test name="Expedia Test Cases" duration-ms="37670" started-at="2018-03-10T05:36:27Z" finished-at="2018-03-10T05:37:05Z">
+    <test name="Expedia Test Cases" duration-ms="38599" started-at="2018-03-10T06:22:01Z" finished-at="2018-03-10T06:22:40Z">
       <class name="TestNG.FlightSearchTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestNG.FlightSearchTest@31ef45e3]" name="setup" is-config="true" duration-ms="13936" started-at="2018-03-10T16:36:28Z" finished-at="2018-03-10T16:36:42Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNG.FlightSearchTest@31ef45e3]" name="setup" is-config="true" duration-ms="16532" started-at="2018-03-10T17:22:02Z" finished-at="2018-03-10T17:22:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="SearchFlight(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNG.FlightSearchTest@31ef45e3]" name="SearchFlight" duration-ms="23034" started-at="2018-03-10T16:36:42Z" data-provider="getData" finished-at="2018-03-10T16:37:05Z">
+        <test-method status="PASS" signature="SearchFlight(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNG.FlightSearchTest@31ef45e3]" name="SearchFlight" duration-ms="18352" started-at="2018-03-10T17:22:19Z" data-provider="getData" finished-at="2018-03-10T17:22:37Z">
           <params>
             <param index="0">
               <value>
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchFlight -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNG.FlightSearchTest@31ef45e3]" name="teardown" is-config="true" duration-ms="0" started-at="2018-03-10T16:37:05Z" finished-at="2018-03-10T16:37:05Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNG.FlightSearchTest@31ef45e3]" name="teardown" is-config="true" duration-ms="2873" started-at="2018-03-10T17:22:37Z" finished-at="2018-03-10T17:22:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

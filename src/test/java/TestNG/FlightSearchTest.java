@@ -53,7 +53,7 @@ public class FlightSearchTest extends ExpediaTestBase {
 	@AfterMethod()
 
 	public void teardown() {
-		// driver.close();
+	driver.close();
 
 	}
 
