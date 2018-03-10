@@ -11,6 +11,7 @@
 	
 		<classes>
 			<class name="TestNG.FlightSearchTest"></class>
+			<class name="TestNG.RegistrationTest"></class>
 		
 			
 			

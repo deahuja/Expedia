@@ -1,17 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="38599" started-at="2018-03-10T06:22:01Z" finished-at="2018-03-10T06:22:40Z">
+  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="120424" started-at="2018-03-10T06:42:40Z" finished-at="2018-03-10T06:44:41Z">
     <groups>
     </groups>
-    <test name="Expedia Test Cases" duration-ms="38599" started-at="2018-03-10T06:22:01Z" finished-at="2018-03-10T06:22:40Z">
-      <class name="TestNG.FlightSearchTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestNG.FlightSearchTest@31ef45e3]" name="setup" is-config="true" duration-ms="16532" started-at="2018-03-10T17:22:02Z" finished-at="2018-03-10T17:22:19Z">
+    <test name="Expedia Test Cases" duration-ms="120424" started-at="2018-03-10T06:42:40Z" finished-at="2018-03-10T06:44:41Z">
+      <class name="TestNG.RegistrationTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNG.RegistrationTest@14bf9759]" name="setup" is-config="true" duration-ms="7659" started-at="2018-03-10T17:43:15Z" finished-at="2018-03-10T17:43:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="SearchFlight(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNG.FlightSearchTest@31ef45e3]" name="SearchFlight" duration-ms="18352" started-at="2018-03-10T17:22:19Z" data-provider="getData" finished-at="2018-03-10T17:22:37Z">
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNG.RegistrationTest@14bf9759]" name="Registration" duration-ms="16081" started-at="2018-03-10T17:43:22Z" data-provider="getData" finished-at="2018-03-10T17:43:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deepak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahuja]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[de789@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ghjtA@97868]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ghjtA@97868]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNG.RegistrationTest@14bf9759]" name="setup" is-config="true" duration-ms="6588" started-at="2018-03-10T17:43:38Z" finished-at="2018-03-10T17:43:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNG.RegistrationTest@14bf9759]" name="Registration" duration-ms="24552" started-at="2018-03-10T17:43:45Z" data-provider="getData" finished-at="2018-03-10T17:44:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samaira]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahuja]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sam@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ghjtA@97869]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ghjtA@97869]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNG.RegistrationTest@14bf9759]" name="setup" is-config="true" duration-ms="6805" started-at="2018-03-10T17:44:09Z" finished-at="2018-03-10T17:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNG.RegistrationTest@14bf9759]" name="Registration" duration-ms="23646" started-at="2018-03-10T17:44:16Z" data-provider="getData" finished-at="2018-03-10T17:44:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reyansh ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahuja]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rey@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ghjtA@97877]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ghjtA@97877]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNG.RegistrationTest@14bf9759]" name="teardown" is-config="true" duration-ms="763" started-at="2018-03-10T17:44:40Z" finished-at="2018-03-10T17:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestNG.RegistrationTest -->
+      <class name="TestNG.FlightSearchTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNG.FlightSearchTest@3c0ecd4b]" name="setup" is-config="true" duration-ms="8374" started-at="2018-03-10T17:42:41Z" finished-at="2018-03-10T17:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SearchFlight(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNG.FlightSearchTest@3c0ecd4b]" name="SearchFlight" duration-ms="24446" started-at="2018-03-10T17:42:49Z" data-provider="getData" finished-at="2018-03-10T17:43:14Z">
           <params>
             <param index="0">
               <value>
@@ -57,7 +168,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchFlight -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNG.FlightSearchTest@31ef45e3]" name="teardown" is-config="true" duration-ms="2873" started-at="2018-03-10T17:22:37Z" finished-at="2018-03-10T17:22:40Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNG.FlightSearchTest@3c0ecd4b]" name="teardown" is-config="true" duration-ms="730" started-at="2018-03-10T17:43:14Z" finished-at="2018-03-10T17:43:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
