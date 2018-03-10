@@ -72,6 +72,7 @@ public class Extendreportlistener implements IReporter {
 		calendar.setTimeInMillis(millis);
 		return calendar.getTime();
 	}
+}
 
 	
 
